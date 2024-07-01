@@ -8,7 +8,16 @@
 </head>
 <body>
     <div class="main">
-        
+        <div class="form">
+            <a href="/read" id="read-btn">READ-USERS</a>
+            <h1>Create User</h1>
+            <form action="/create" method="post">
+                <input type="text" name="username" placeholder="Enter name" id="name">
+                <input type="text" name="useremail" placeholder="Enter email" id="email">
+                <input type="text" name="userimage" placeholder="image url" id="image">
+                <input type="submit" value="Create user" id="btn">
+            </form>
+        </div>
     </div>
     <script src="/javascripts/script.js"></script>
 </body>
